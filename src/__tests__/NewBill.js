@@ -65,7 +65,7 @@ describe("Given I am connected as an employee", () => {
     })
   })
 
-  // test d'intégration POST
+  //test d'intégration POST new bill
   describe("When I add a new bill", () => {
     test("Then it creates a new bill", () => {
       document.body.innerHTML = NewBillUI()
