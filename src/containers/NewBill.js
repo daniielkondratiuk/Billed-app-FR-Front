@@ -42,6 +42,8 @@ export default class NewBill {
             this.fileName = fileName
             this.filePath = filePath
           }).catch(error => console.error(error))
+    }else {
+      alert('Ce type de fichier n\'est pas supporté. Veuillez choisir un fichier en format .jpg .jpeg ou .png ')
     }
   }
   handleSubmit = e => {
